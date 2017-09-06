@@ -31,5 +31,3 @@ li:nth-child(15n)::after {
   left: 50%;
   transform: translateX(-50%);
   background: white; }
-
-/*# sourceMappingURL=styles.css.map */
