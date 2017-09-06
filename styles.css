@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+ul li {
+  margin-left: 30px; }
+
+li:nth-child(3n) {
+  position: relative; }
+li:nth-child(3n)::after {
+  content: "Fizz";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; }
+
+li:nth-child(5n) {
+  position: relative; }
+li:nth-child(5n)::after {
+  content: "Buzz";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; }
+
+li:nth-child(15n) {
+  position: relative; }
+li:nth-child(15n)::after {
+  content: "FizzBuzz";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; }
+
+/*# sourceMappingURL=styles.css.map */
